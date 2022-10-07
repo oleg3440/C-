@@ -6,8 +6,8 @@ int i = 1;
 
 while (i <= N)
 {
-    if (i % 2 == 0);
-    Console.Write($"{i} ");
+    if (i % 2 == 0)
+        Console.Write($"{i} ");
 
     i=i+1;
 }

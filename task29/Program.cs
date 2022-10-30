@@ -9,7 +9,9 @@ int[] CreateArray()
     for (int i = 0; i < size; i++)
     {
         garray[i] = new Random().Next(10);
-        Console.Write($"{garray[i]} ");
+        Consol
+        
+        e.Write($"{garray[i]} ");
     }
     return garray;
 }

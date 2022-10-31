@@ -32,4 +32,18 @@ for (int i = 0; i < 3; i++)
         Console.Write($"{array[i, j]}  ");
     }
     Console.WriteLine();
+
+    //динамический массив
+    List<int> array = new List<int>();
+
+    array.Add(5);
+    array.Add(6);
+    array.Add(7);
+
+    for (int i = 0; i < array.Count; i++)
+    {
+        Console.Write($"{array[i]} ");
+    }
+
+
 }

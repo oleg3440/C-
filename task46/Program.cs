@@ -4,7 +4,7 @@
 // 5 - 2 33 - 2
 // 77 3 8 1
 
-int[,] array = new int [3, 4];
+int[,] array = new int [3, 4]; //создание статического массива
 for (int i = 0; i < 3; i++)
 {
     for (int j = 0; j < 4; j++)
